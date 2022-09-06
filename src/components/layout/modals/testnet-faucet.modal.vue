@@ -41,6 +41,7 @@ import LoadingButton from "src/components/utils/loading-button"
 export default {
 
     components: {AccountIdenticon, Modal, VueHcaptcha, AlertBox, LoadingSpinner, LoadingButton},
+    components: {AccountIdenticon, Modal, AlertBox, LoadingSpinner, LoadingButton},
 
     data(){
         return{
@@ -145,3 +146,4 @@ export default {
       width: 100%
     }
 </style>
+
